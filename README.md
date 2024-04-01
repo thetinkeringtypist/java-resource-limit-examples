@@ -1,8 +1,8 @@
 # Java Resource Limitation Examples
 
-This repository contains some examples of how to tackle certain problems when dealing with resource limits when using
-Java. Unless specified otherwise, all examples (when executed) should have the JVM arguments `-Xms` and `-Xmx` set to
-the same value.
+This repository contains some examples about how to possibly tackle certain problems when dealing with resource limits
+when using Java. Unless specified otherwise, all examples (when executed) should have the JVM arguments
+`-Xms` and `-Xmx` set to the same value.
 
 ## Finding "Maximal" Size of a List
 File: [com.thetinkeringtypist.examples.MaximalListSize.java](src/com/thetinkeringtypist/examples/MaximalListSize.java)
