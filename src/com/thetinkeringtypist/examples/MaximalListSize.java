@@ -5,27 +5,19 @@ import java.util.List;
 import java.util.Objects;
 
 /**
- * <p>
  * Let's test a simple case of allocating and filling a list based on the amount of memory available and not based on
  * some arbitrary number. Useful for most people? Probably not. BUT! This is useful when most of your items are stored
  * in memory while waiting to be processed. Say a queue of some type.
- * </p>
- * <br>
- * <p>
+ * 
  * The better solution here might be to limit the size of the collection based on sound estimation and engineering.
  * Heck, you might even be better off writing long waiting tasks to disk or some sort of long term persistent memory.
- * </p>
- * <br>
- * <p>
+ *
  * But we can't always do that. So... let's say that we have a microservice that runs in duplicate/triplicate/etc.
  * on different hardware across the deployment space (i.e. heterogeneous hardware). How do we know how many objects a
  * collection can hold if all the hardware is different (i.e. different amount of RAM available to each microservice)?
- * </p>
- * <br>
- * <p>
+ *
  * To that, you should read the second "paragraph" again. Then again, when we're messing around at home for fun,
  * why not just play around and find out?
- * </p>
  */
 public class MaximalListSize {
     public static void main(String[] args) {
